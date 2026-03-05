@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kenneth_Carlsen_Lee - Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="Porto_styles.css" />
+</head>
+<body>
+  <header>
+    <nav class="navbar" aria-label="Main navigation">
+      <a href="#home" class="brand">Kenneth Lee</a>
+      <button id="menu-toggle" class="menu-toggle" aria-label="Toggle mobile menu" aria-expanded="false">Menu</button>
+      <ul id="nav-links" class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">Dark Mode</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="reveal">
+      <div class="hero-content">
+        <p class="eyebrow">Information Systems Student | Aspiring Game Developer</p>
+        <h1>Kenneth Carlsen Lee</h1>
+        <p>Beginner programmer with a growing passion for web development, design, building useful digital experiences, and especially game development.</p>
+        <div class="hero-actions">
+          <a class="cta" href="#projects">View Projects</a>
+          <a class="cta cta-outline" href="#contact">Contact Me</a>
+        </div>
+      </div>
+      <div class="hero-badge" aria-hidden="true">KL</div>
+    </section>
+
+    <section id="about" class="reveal">
+      <div class="about-content">
+        <div class="about-text">
+          <h2>About Me</h2>
+          <p>Hi, I'm Kenneth Carlsen Lee. What began as curiosity has grown into a real passion for programming. I am still exploring my long-term path, and one of my goals is to create my own game in the future.</p>
+          <h3>Education</h3>
+          <p><strong>Universitas Pelita Harapan (UPH)</strong><br />Second Year | Information Systems<br />2025 - Present</p>
+          <h3>Skills</h3>
+          <ul>
+            <li>HTML, CSS, JavaScript</li>
+            <li>Design, UI/UX Fundamentals</li>
+          </ul>
+          <h3>Alumni</h3>
+          <div class="alumni-list">
+            <div class="alumni-item">
+              <img src="https://www.pelitafajar.sch.id/wp-content/uploads/elementor/thumbs/LOGO-SEKOLAH-Pelita-Fajar-oh17xqlrzpu8oe6256ihdxzbgqvz0b4tw8aistvlwg.png" alt="SD Pelita Fajar">
+              <p>SD Pelita Fajar</p>
+            </div>
+            <div class="alumni-item">
+              <img src="Assets/img/SMP Waringin & SMA Trinitas.png" alt="SMP Waringin">
+              <p>SMP Waringin</p>
+            </div>
+            <div class="alumni-item">
+              <img src="Assets/img/SMP Waringin & SMA Trinitas.png" alt="SMA Trinitas">
+              <p>SMA Trinitas</p>
+            </div>
+          </div>
+        </div>
+        <div class="about-photo">
+          <img src="Assets/img/profile.jpeg" alt="Portrait of Kenneth Carlsen Lee" />
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="reveal">
+      <h2>Projects</h2>
+      <article class="project-card">
+        <h3>Portfolio Mahasiswa</h3>
+        <p>A simple portfolio website showcasing my projects and current skills. (you are currently here)</p>
+        <div class="project-tags">
+          <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Responsive</span>
+        </div>
+        <div class="project-actions">
+          <a href="#" target="_blank" rel="noopener noreferrer">Live Demo</a>
+          <a href="#" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </div>
+        <button class="project-preview-btn" data-project="Portfolio Mahasiswa" 
+        data-description="A personal portfolio website built using semantic HTML, CSS, and JavaScript to present my projects, skills, and contact information in a structured and interactive layout.">Quick Preview</button>
+      </article>
+      <article class="project-card">
+        <h3>Project Fintech</h3>
+        <p>A responsive fintech website designed to showcase digital financial services, including online payments, financial tracking, and secure transaction features. (In Progress)</p>
+        <div class="project-tags">
+          <span>UI/UX</span><span>Fintech</span><span>Dashboard</span><span>JavaScript</span>
+        </div>
+        <div class="project-actions">
+          <a href="#" target="_blank" rel="noopener noreferrer">Live Demo</a>
+          <a href="#" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </div>
+        <button class="project-preview-btn" data-project="Project Fintech" 
+        data-description="A fintech web interface prototype designed to demonstrate digital financial services such as online payments, transaction tracking, and modern financial dashboards.">Quick Preview</button>
+      </article>
+      <article class="project-card">
+        <h3>SQL Database</h3>
+        <p>A relational database built using SQL to manage and query structured data efficiently, including data retrieval, filtering, and aggregation operations. (In Progress)</p>
+        <div class="project-tags">
+          <span>SQL</span><span>CRUD</span><span>Relational DB</span><span>Data Query</span>
+        </div>
+        <div class="project-actions">
+          <a href="#" target="_blank" rel="noopener noreferrer">Live Demo</a>
+          <a href="#" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </div>
+        <button class="project-preview-btn" data-project="SQL Database" 
+        data-description="A database project that demonstrates relational database design and SQL queries including SELECT, JOIN, and aggregation functions for managing structured data.">Quick Preview</button>
+      </article>
+      <article class="project-card">
+        <h3>Project Game Prototype</h3>
+        <p>A game prototype designed in a top-down perspective where players can explore environments, interact with objects, and experience basic RPG gameplay mechanics. (In Progress)</p>
+        <div class="project-tags">
+          <span>Game Design</span><span>RPG</span><span>Top-Down</span><span>Prototype</span>
+        </div>
+        <div class="project-actions">
+          <a href="#" target="_blank" rel="noopener noreferrer">Live Demo</a>
+          <a href="#" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </div>
+        <button class="project-preview-btn" data-project="Project Game Prototype" 
+        data-description="A prototype top-down RPG game focusing on player movement, exploration mechanics, and basic gameplay interactions.">Quick Preview</button>
+      </article>
+    </section>
+
+    <section id="contact" class="reveal">
+      <h2>Contact</h2>
+      <p>Email: kennethleebbid@gmail.com</p>
+      <p>Instagram: kennethcarlsenlee</p>
+      <p>Phone: +62 879-8061-4225</p>
+      <div class="social-links">
+        <a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="https://instagram.com/kennethcarlsenlee" target="_blank" rel="noopener noreferrer">Instagram</a>
+        <button id="copy-email" type="button" data-email="kennethleebbid@gmail.com">Copy Email</button>
+      </div>
+      <form id="contact-form" novalidate>
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text" required />
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" required />
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+        <button type="submit">Send</button>
+        <p id="form-status" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <div id="project-modal" class="modal" aria-hidden="true" role="dialog" aria-label="Project preview">
+    <div class="modal-content">
+      <button id="close-modal" class="close-modal" aria-label="Close preview">Close</button>
+      <h3 id="modal-title"></h3>
+      <p id="modal-description"></p>
+    </div>
+  </div>
+
+  <button id="back-to-top" class="back-to-top" aria-label="Back to top">Top</button>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <footer>
+    <p>&copy; 2026 Kenneth Carlsen Lee</p>
+  </footer>
+  <script src="Porto_Script.js" defer></script>
+</body>
+</html>
